@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3574CBDA0B1CE376B18A29DD /* Pods_KadaiApp2Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B234401F3ECC9C950B9AE0F /* Pods_KadaiApp2Tests.framework */; };
+		B2AD7820BD5057AEC0F7F17B /* Pods_KadaiApp2_KadaiApp2UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93CBCED5C8F45453FDDF2DB6 /* Pods_KadaiApp2_KadaiApp2UITests.framework */; };
+		C0EADFD77F99009778A7F179 /* Pods_KadaiApp2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACECC74DAED925DA19D0C5EC /* Pods_KadaiApp2.framework */; };
 		F50F91C92639010900E76CE1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F50F91C82639010900E76CE1 /* AppDelegate.m */; };
 		F50F91CC2639010900E76CE1 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F50F91CB2639010900E76CE1 /* SceneDelegate.m */; };
 		F50F91CF2639010900E76CE1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F50F91CE2639010900E76CE1 /* ViewController.m */; };
@@ -36,6 +39,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		078ECB48E19DED0EA8F97F92 /* Pods-KadaiApp2-KadaiApp2UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KadaiApp2-KadaiApp2UITests.debug.xcconfig"; path = "Target Support Files/Pods-KadaiApp2-KadaiApp2UITests/Pods-KadaiApp2-KadaiApp2UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1AC0F6EA992DDF1F3F0EB8F5 /* Pods-KadaiApp2Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KadaiApp2Tests.release.xcconfig"; path = "Target Support Files/Pods-KadaiApp2Tests/Pods-KadaiApp2Tests.release.xcconfig"; sourceTree = "<group>"; };
+		4F0E4421DFBA9A9CF8228823 /* Pods-KadaiApp2-KadaiApp2UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KadaiApp2-KadaiApp2UITests.release.xcconfig"; path = "Target Support Files/Pods-KadaiApp2-KadaiApp2UITests/Pods-KadaiApp2-KadaiApp2UITests.release.xcconfig"; sourceTree = "<group>"; };
+		6B234401F3ECC9C950B9AE0F /* Pods_KadaiApp2Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KadaiApp2Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7427BAB49587A84499674CFE /* Pods-KadaiApp2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KadaiApp2.debug.xcconfig"; path = "Target Support Files/Pods-KadaiApp2/Pods-KadaiApp2.debug.xcconfig"; sourceTree = "<group>"; };
+		903CBD423C7C1AFB6637E7F1 /* Pods-KadaiApp2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KadaiApp2.release.xcconfig"; path = "Target Support Files/Pods-KadaiApp2/Pods-KadaiApp2.release.xcconfig"; sourceTree = "<group>"; };
+		93CBCED5C8F45453FDDF2DB6 /* Pods_KadaiApp2_KadaiApp2UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KadaiApp2_KadaiApp2UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DC42CD93CBCF4D5F299C410 /* Pods-KadaiApp2Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KadaiApp2Tests.debug.xcconfig"; path = "Target Support Files/Pods-KadaiApp2Tests/Pods-KadaiApp2Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		ACECC74DAED925DA19D0C5EC /* Pods_KadaiApp2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KadaiApp2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F50F91C42639010900E76CE1 /* KadaiApp2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KadaiApp2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F50F91C72639010900E76CE1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F50F91C82639010900E76CE1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -61,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0EADFD77F99009778A7F179 /* Pods_KadaiApp2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3574CBDA0B1CE376B18A29DD /* Pods_KadaiApp2Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,12 +89,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2AD7820BD5057AEC0F7F17B /* Pods_KadaiApp2_KadaiApp2UITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		75F4E90A2D6B5661087E1F5D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ACECC74DAED925DA19D0C5EC /* Pods_KadaiApp2.framework */,
+				93CBCED5C8F45453FDDF2DB6 /* Pods_KadaiApp2_KadaiApp2UITests.framework */,
+				6B234401F3ECC9C950B9AE0F /* Pods_KadaiApp2Tests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF2127D73DB22EF5B33D403F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7427BAB49587A84499674CFE /* Pods-KadaiApp2.debug.xcconfig */,
+				903CBD423C7C1AFB6637E7F1 /* Pods-KadaiApp2.release.xcconfig */,
+				078ECB48E19DED0EA8F97F92 /* Pods-KadaiApp2-KadaiApp2UITests.debug.xcconfig */,
+				4F0E4421DFBA9A9CF8228823 /* Pods-KadaiApp2-KadaiApp2UITests.release.xcconfig */,
+				9DC42CD93CBCF4D5F299C410 /* Pods-KadaiApp2Tests.debug.xcconfig */,
+				1AC0F6EA992DDF1F3F0EB8F5 /* Pods-KadaiApp2Tests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		F50F91BB2639010900E76CE1 = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +127,8 @@
 				F50F91E22639010B00E76CE1 /* KadaiApp2Tests */,
 				F50F91ED2639010B00E76CE1 /* KadaiApp2UITests */,
 				F50F91C52639010900E76CE1 /* Products */,
+				BF2127D73DB22EF5B33D403F /* Pods */,
+				75F4E90A2D6B5661087E1F5D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -144,9 +185,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F50F91F32639010B00E76CE1 /* Build configuration list for PBXNativeTarget "KadaiApp2" */;
 			buildPhases = (
+				452F68646A2D129CEA19EB80 /* [CP] Check Pods Manifest.lock */,
 				F50F91C02639010900E76CE1 /* Sources */,
 				F50F91C12639010900E76CE1 /* Frameworks */,
 				F50F91C22639010900E76CE1 /* Resources */,
+				615A38BD415D12AA7FDEC7AF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -161,6 +204,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F50F91F62639010B00E76CE1 /* Build configuration list for PBXNativeTarget "KadaiApp2Tests" */;
 			buildPhases = (
+				C47E9CF2D99D8B58EE5EE5E1 /* [CP] Check Pods Manifest.lock */,
 				F50F91DB2639010B00E76CE1 /* Sources */,
 				F50F91DC2639010B00E76CE1 /* Frameworks */,
 				F50F91DD2639010B00E76CE1 /* Resources */,
@@ -179,9 +223,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F50F91F92639010B00E76CE1 /* Build configuration list for PBXNativeTarget "KadaiApp2UITests" */;
 			buildPhases = (
+				A257A0C14B0A9B63DA26F66B /* [CP] Check Pods Manifest.lock */,
 				F50F91E62639010B00E76CE1 /* Sources */,
 				F50F91E72639010B00E76CE1 /* Frameworks */,
 				F50F91E82639010B00E76CE1 /* Resources */,
+				8E7D97A646BD36299A6C05DF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -260,6 +306,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		452F68646A2D129CEA19EB80 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KadaiApp2-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		615A38BD415D12AA7FDEC7AF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KadaiApp2/Pods-KadaiApp2-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KadaiApp2/Pods-KadaiApp2-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KadaiApp2/Pods-KadaiApp2-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8E7D97A646BD36299A6C05DF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KadaiApp2-KadaiApp2UITests/Pods-KadaiApp2-KadaiApp2UITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KadaiApp2-KadaiApp2UITests/Pods-KadaiApp2-KadaiApp2UITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KadaiApp2-KadaiApp2UITests/Pods-KadaiApp2-KadaiApp2UITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A257A0C14B0A9B63DA26F66B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KadaiApp2-KadaiApp2UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C47E9CF2D99D8B58EE5EE5E1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KadaiApp2Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F50F91C02639010900E76CE1 /* Sources */ = {
@@ -438,6 +587,7 @@
 		};
 		F50F91F42639010B00E76CE1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7427BAB49587A84499674CFE /* Pods-KadaiApp2.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -456,6 +606,7 @@
 		};
 		F50F91F52639010B00E76CE1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 903CBD423C7C1AFB6637E7F1 /* Pods-KadaiApp2.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -474,6 +625,7 @@
 		};
 		F50F91F72639010B00E76CE1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DC42CD93CBCF4D5F299C410 /* Pods-KadaiApp2Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -494,6 +646,7 @@
 		};
 		F50F91F82639010B00E76CE1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1AC0F6EA992DDF1F3F0EB8F5 /* Pods-KadaiApp2Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -514,6 +667,7 @@
 		};
 		F50F91FA2639010B00E76CE1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 078ECB48E19DED0EA8F97F92 /* Pods-KadaiApp2-KadaiApp2UITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 89XPZ7US27;
@@ -532,6 +686,7 @@
 		};
 		F50F91FB2639010B00E76CE1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F0E4421DFBA9A9CF8228823 /* Pods-KadaiApp2-KadaiApp2UITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 89XPZ7US27;

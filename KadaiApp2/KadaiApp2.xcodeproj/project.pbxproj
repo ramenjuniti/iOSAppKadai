@@ -19,7 +19,6 @@
 		F50F91DA2639010B00E76CE1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F50F91D92639010B00E76CE1 /* main.m */; };
 		F50F91E42639010B00E76CE1 /* KadaiApp2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = F50F91E32639010B00E76CE1 /* KadaiApp2Tests.m */; };
 		F50F91EF2639010B00E76CE1 /* KadaiApp2UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F50F91EE2639010B00E76CE1 /* KadaiApp2UITests.m */; };
-		F50F92172639235200E76CE1 /* BannerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F50F92162639235200E76CE1 /* BannerViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,8 +66,6 @@
 		F50F91EA2639010B00E76CE1 /* KadaiApp2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KadaiApp2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F50F91EE2639010B00E76CE1 /* KadaiApp2UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KadaiApp2UITests.m; sourceTree = "<group>"; };
 		F50F91F02639010B00E76CE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F50F92162639235200E76CE1 /* BannerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BannerViewController.m; sourceTree = "<group>"; };
-		F50F921B2639237400E76CE1 /* BannerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BannerViewController.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,8 +155,6 @@
 				F50F91D52639010B00E76CE1 /* LaunchScreen.storyboard */,
 				F50F91D82639010B00E76CE1 /* Info.plist */,
 				F50F91D92639010B00E76CE1 /* main.m */,
-				F50F92162639235200E76CE1 /* BannerViewController.m */,
-				F50F921B2639237400E76CE1 /* BannerViewController.h */,
 			);
 			path = KadaiApp2;
 			sourceTree = "<group>";
@@ -423,7 +418,6 @@
 				F50F91C92639010900E76CE1 /* AppDelegate.m in Sources */,
 				F50F91DA2639010B00E76CE1 /* main.m in Sources */,
 				F50F91CC2639010900E76CE1 /* SceneDelegate.m in Sources */,
-				F50F92172639235200E76CE1 /* BannerViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

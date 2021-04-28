@@ -20,6 +20,7 @@
 		F50F91E42639010B00E76CE1 /* KadaiApp2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = F50F91E32639010B00E76CE1 /* KadaiApp2Tests.m */; };
 		F50F91EF2639010B00E76CE1 /* KadaiApp2UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F50F91EE2639010B00E76CE1 /* KadaiApp2UITests.m */; };
 		F534B10B2639495400546A9C /* BannerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F534B10A2639495400546A9C /* BannerViewController.m */; };
+		F534B11126394ADA00546A9C /* RewardedVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F534B11026394ADA00546A9C /* RewardedVideoViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +70,8 @@
 		F50F91F02639010B00E76CE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F534B1092639495400546A9C /* BannerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BannerViewController.h; sourceTree = "<group>"; };
 		F534B10A2639495400546A9C /* BannerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BannerViewController.m; sourceTree = "<group>"; };
+		F534B10F26394ADA00546A9C /* RewardedVideoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RewardedVideoViewController.h; sourceTree = "<group>"; };
+		F534B11026394ADA00546A9C /* RewardedVideoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RewardedVideoViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,6 +163,8 @@
 				F50F91D92639010B00E76CE1 /* main.m */,
 				F534B1092639495400546A9C /* BannerViewController.h */,
 				F534B10A2639495400546A9C /* BannerViewController.m */,
+				F534B10F26394ADA00546A9C /* RewardedVideoViewController.h */,
+				F534B11026394ADA00546A9C /* RewardedVideoViewController.m */,
 			);
 			path = KadaiApp2;
 			sourceTree = "<group>";
@@ -419,6 +424,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F534B11126394ADA00546A9C /* RewardedVideoViewController.m in Sources */,
 				F50F91CF2639010900E76CE1 /* ViewController.m in Sources */,
 				F50F91C92639010900E76CE1 /* AppDelegate.m in Sources */,
 				F50F91DA2639010B00E76CE1 /* main.m in Sources */,

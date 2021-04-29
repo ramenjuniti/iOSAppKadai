@@ -6,7 +6,7 @@
 //
 
 #import "RewardedVideoViewController.h"
-@import FluctSDK;
+#import <FluctSDK/FluctSDK.h>
 
 static NSString *const kRewardedVideoGroupID = @"1000083204";
 static NSString *const kRewardedVideoUnitID = @"1000124351";
@@ -19,12 +19,8 @@ static NSString *const kRewardedVideoUnitID = @"1000124351";
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // 初期化及びデリゲート設定
+    // デリゲート設定
     FSSRewardedVideo.sharedInstance.delegate = self;
-    FSSRewardedVideoSetting *setting = FSSRewardedVideoSetting.defaultSetting;
-    setting.debugMode = YES;
-    setting.testMode = YES;
-    FSSRewardedVideo.sharedInstance.setting = setting;
 }
 
 - (IBAction)didTouchUpLoadAd:(id)sender {

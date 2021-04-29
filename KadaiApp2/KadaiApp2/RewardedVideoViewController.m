@@ -6,7 +6,7 @@
 //
 
 #import "RewardedVideoViewController.h"
-#import <FluctSDK/FluctSDK.h>
+@import FluctSDK;
 
 static NSString *const kRewardedVideoGroupID = @"1000083204";
 static NSString *const kRewardedVideoUnitID = @"1000124351";
@@ -25,10 +25,7 @@ static NSString *const kRewardedVideoUnitID = @"1000124351";
 
 - (IBAction)didTouchUpLoadAd:(id)sender {
     // 動画リワード広告の読み込み
-    FSSAdRequestTargeting *targeting = [FSSAdRequestTargeting new];
-    [FSSRewardedVideo.sharedInstance loadRewardedVideoWithGroupId:kRewardedVideoGroupID
-                                                           unitId:kRewardedVideoUnitID
-                                                        targeting:targeting];
+    [FSSRewardedVideo.sharedInstance loadRewardedVideoWithGroupId:kRewardedVideoGroupID unitId:kRewardedVideoUnitID];
 }
 
 - (IBAction)didTouchUpShowAd:(id)sender {

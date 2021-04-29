@@ -15,14 +15,37 @@
                     <view key="view" contentMode="scaleToFill" id="dAo-YP-jPj">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VB2-3b-jqe">
+                                <rect key="frame" x="65" y="71" width="285" height="188"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="56"/>
+                                <state key="normal" title="show"/>
+                                <connections>
+                                    <action selector="didTouchUpShowAd:" destination="M5R-fN-rzl" eventType="touchUpInside" id="peD-gU-ZUu"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fiI-c3-Dg4">
+                                <rect key="frame" x="98" y="478" width="218" height="177"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="49"/>
+                                <state key="normal" title="load"/>
+                                <connections>
+                                    <action selector="didTouchUpLoadAd:" destination="M5R-fN-rzl" eventType="touchUpInside" id="XkR-8h-85e"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="KxO-ww-Zeg"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="7Qa-Mq-7h2"/>
+                    <connections>
+                        <outlet property="showButton" destination="VB2-3b-jqe" id="QrF-qz-z7b"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="c9s-pF-VqY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-886" y="68"/>
+            <point key="canvasLocation" x="-886.95652173913049" y="67.633928571428569"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">

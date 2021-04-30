@@ -47,5 +47,6 @@ jobs:
         env:
         scheme: ${{ 'KadaiApp3Tests' }}
         platform: ${{ 'iOS Simulator' }}
-        run: make test
+        run: |
+                make test
         working-directory: ./KadaiApp3

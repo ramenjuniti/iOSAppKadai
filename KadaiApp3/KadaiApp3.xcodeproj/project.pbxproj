@@ -16,6 +16,8 @@
 		F59ED23D263B8A09002BAE26 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F59ED23C263B8A09002BAE26 /* main.m */; };
 		F59ED247263B8A09002BAE26 /* KadaiApp3Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = F59ED246263B8A09002BAE26 /* KadaiApp3Tests.m */; };
 		F59ED252263B8A09002BAE26 /* KadaiApp3UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F59ED251263B8A09002BAE26 /* KadaiApp3UITests.m */; };
+		F59ED26B263B955C002BAE26 /* FibonacciTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F59ED26A263B955C002BAE26 /* FibonacciTests.m */; };
+		F59ED278263BA0FC002BAE26 /* Fibonacci.m in Sources */ = {isa = PBXBuildFile; fileRef = F59ED270263B95AA002BAE26 /* Fibonacci.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,9 @@
 		F59ED24D263B8A09002BAE26 /* KadaiApp3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KadaiApp3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F59ED251263B8A09002BAE26 /* KadaiApp3UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KadaiApp3UITests.m; sourceTree = "<group>"; };
 		F59ED253263B8A09002BAE26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F59ED26A263B955C002BAE26 /* FibonacciTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FibonacciTests.m; sourceTree = "<group>"; };
+		F59ED26F263B958D002BAE26 /* Fibonacci.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Fibonacci.h; sourceTree = "<group>"; };
+		F59ED270263B95AA002BAE26 /* Fibonacci.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Fibonacci.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,7 +128,10 @@
 			isa = PBXGroup;
 			children = (
 				F59ED246263B8A09002BAE26 /* KadaiApp3Tests.m */,
+				F59ED26F263B958D002BAE26 /* Fibonacci.h */,
+				F59ED270263B95AA002BAE26 /* Fibonacci.m */,
 				F59ED248263B8A09002BAE26 /* Info.plist */,
+				F59ED26A263B955C002BAE26 /* FibonacciTests.m */,
 			);
 			path = KadaiApp3Tests;
 			sourceTree = "<group>";
@@ -277,6 +285,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F59ED26B263B955C002BAE26 /* FibonacciTests.m in Sources */,
+				F59ED278263BA0FC002BAE26 /* Fibonacci.m in Sources */,
 				F59ED247263B8A09002BAE26 /* KadaiApp3Tests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

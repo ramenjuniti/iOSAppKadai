@@ -6,7 +6,7 @@
 //
 
 #import <XCTest/XCTest.h>
-#import "Fibonacci.h"
+#import "../KadaiApp3/Fibonacci.h"
 
 @interface FibonacciTests : XCTestCase
 
@@ -36,8 +36,10 @@
 
 - (void)testFibonacci {
     Fibonacci *f = [[Fibonacci alloc]init];
-    int a = [f Do:10];
-    NSLog(@"%d", [f Do:10]);
+    XCTAssertEqual([f Do:0], 0);
+    XCTAssertEqual([f Do:1], 1);
+    XCTAssertEqual([f Do:2], 0+1);
+    XCTAssertEqual([f Do:3], 1+1);
 }
 
 @end

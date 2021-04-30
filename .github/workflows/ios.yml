@@ -44,7 +44,6 @@ jobs:
         #          xcodebuild test-without-building -scheme "$scheme" -"$filetype_parameter" "$file_to_build" -destination "platform=$platform,name=$device"
         #        working-directory: ./KadaiApp3
       - name: Test
-        env:
         run: |
                 make test
         working-directory: ./KadaiApp3
